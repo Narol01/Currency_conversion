@@ -15,9 +15,9 @@ import java.util.Scanner;
 public class FixerAppl {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter what you want to buy");
-        String from = scanner.nextLine();
         System.out.println("Enter what you want to sell");
+        String from = scanner.nextLine();
+        System.out.println("Enter what you want to buy");
         String to = scanner.nextLine();
         System.out.println("Enter amount");
         String amount= scanner.nextLine();
